@@ -29,11 +29,6 @@
   dependencies:
     axios "*"
 
-"@types/bluebird@*":
-  version "3.5.35"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.35.tgz#3964c48372bf62d60616d8673dd77a9719ebac9b"
-  integrity sha512-2WeeXK7BuQo7yPI4WGOBum90SzF/f8rqlvpaXx4rjeTmNssGRDHWf7fgDUH90xMB3sUOu716fUK5d+OVx0+ncQ==
-
 "@types/body-parser@*":
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.0.tgz#0685b3c47eb3006ffed117cdd55164b61f80538f"
@@ -41,14 +36,6 @@
   dependencies:
     "@types/connect" "*"
     "@types/node" "*"
-
-"@types/cached@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@types/cached/-/cached-5.0.1.tgz#94bd31b46106112fc062fc815a23cd6b050a3969"
-  integrity sha512-8kM+ENrNIHTa04IIKmEN4fMRof7fuGWVbJF9Q/GsZeibPb0SA/IvHPhM97BUlSWNVHHK3Ep42RMFshESjeIfVA==
-  dependencies:
-    "@types/bluebird" "*"
-    "@types/memcached" "*"
 
 "@types/cheerio@^0.22.29":
   version "0.22.29"
@@ -82,13 +69,6 @@
     "@types/express-serve-static-core" "^4.17.18"
     "@types/qs" "*"
     "@types/serve-static" "*"
-
-"@types/memcached@*":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@types/memcached/-/memcached-2.2.6.tgz#f2b6a01e5344efb51a4176dd471dbd75f7066acd"
-  integrity sha512-7FTcKNkfzc7tfywZo0qtAbAnKTQoyDbCB4xQXXSVQqbXM0PQy0hRFPVymLoicBwaKLqDbL8thRGvF3wKRTnwvg==
-  dependencies:
-    "@types/node" "*"
 
 "@types/mime@^1":
   version "1.3.2"
@@ -143,11 +123,6 @@ axios@*, axios@^0.21.1:
   dependencies:
     follow-redirects "^1.10.0"
 
-bluebird@^3.3.3:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
-  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
-
 body-parser@1.19.0:
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
@@ -179,14 +154,6 @@ bytes@3.1.0:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
 
-cached@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/cached/-/cached-5.0.2.tgz#b8c0126c857ebf51d53f267a1fcfac26b860a5c4"
-  integrity sha512-WTj0PpOcBdpTt0sFJUtP9NhZ4V1FBw4EZf/qKdEr1DdmrnW10vRg+97jNCs0RPEe+Wy1LOT6kKcG1Q7BYxpWfg==
-  dependencies:
-    bluebird "^3.3.3"
-    memcached "^2.2.2"
-
 cheerio-select@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/cheerio-select/-/cheerio-select-1.5.0.tgz#faf3daeb31b17c5e1a9dabcee288aaf8aafa5823"
@@ -210,11 +177,6 @@ cheerio@^1.0.0-rc.10:
     parse5 "^6.0.1"
     parse5-htmlparser2-tree-adapter "^6.0.1"
     tslib "^2.2.0"
-
-connection-parse@0.0.x:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/connection-parse/-/connection-parse-0.0.7.tgz#18e7318aab06a699267372b10c5226d25a1c9a69"
-  integrity sha1-GOcxiqsGppkmc3KxDFIm0locmmk=
 
 content-disposition@0.5.3:
   version "0.5.3"
@@ -400,14 +362,6 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-hashring@3.2.x:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/hashring/-/hashring-3.2.0.tgz#fda4efde8aa22cdb97fb1d2a65e88401e1c144ce"
-  integrity sha1-/aTv3oqiLNuX+x0qZeiEAeHBRM4=
-  dependencies:
-    connection-parse "0.0.x"
-    simple-lru-cache "0.0.x"
-
 htmlparser2@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-6.1.0.tgz#c4d762b6c3371a05dbe65e94ae43a9f845fb8fb7"
@@ -462,13 +416,6 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-jackpot@>=0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/jackpot/-/jackpot-0.0.6.tgz#3cff064285cbf66f4eab2593c90bce816a821849"
-  integrity sha1-PP8GQoXL9m9OqyWTyQvOgWqCGEk=
-  dependencies:
-    retry "0.6.0"
-
 make-error@^1.1.1:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
@@ -478,14 +425,6 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
-
-memcached@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/memcached/-/memcached-2.2.2.tgz#68f86ccfd84bcf93cc25ed46d6d7fc0c7521c9d5"
-  integrity sha1-aPhsz9hLz5PMJe1G1tf8DHUhydU=
-  dependencies:
-    hashring "3.2.x"
-    jackpot ">=0.0.6"
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -593,11 +532,6 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-retry@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/retry/-/retry-0.6.0.tgz#1c010713279a6fd1e8def28af0c3ff1871caa537"
-  integrity sha1-HAEHEyeab9Ho3vKK8MP/GHHKpTc=
-
 safe-buffer@5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -641,11 +575,6 @@ setprototypeof@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
-
-simple-lru-cache@0.0.x:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/simple-lru-cache/-/simple-lru-cache-0.0.2.tgz#d59cc3a193c1a5d0320f84ee732f6e4713e511dd"
-  integrity sha1-1ZzDoZPBpdAyD4Tucy9uRxPlEd0=
 
 source-map-support@^0.5.17:
   version "0.5.19"
